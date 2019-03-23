@@ -12,7 +12,7 @@ check:
 which wx-config
 ```
 
-it should return *NOT* return  `/usr/bin/wx-config` (`/usr/local/bin/wx-config` should be good).
+it should return **NOT** return  `/usr/bin/wx-config` (`/usr/local/bin/wx-config` should be good).
 
 Run
 
