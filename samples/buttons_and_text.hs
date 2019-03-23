@@ -12,10 +12,10 @@ btns_text
        g <- frame [ text := "add something..."]
        vn    <- varCreate 0
        quit <- button f [text := "Quit", on command := close f >> close g]
-       set f [layout := space 2000 900]
+       set f [layout := margin 500 (widget quit)]
        add  <- button g [text := "Add", on command := varUpdate vn succ >> do {n <- varGet vn; set g [ text := show n ]}]
-       return ()
-       set g [layout := space 1000 1000]
+       del  <- button g [text := "Delete", on command := varUpdate vn pred >> do {n <- varGet vn; set g [ text := show n ]}]
+       set g [layout := margin 300 (column 5 [label "hey", widget add, widget del])]
 
 
 
