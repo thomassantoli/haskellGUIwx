@@ -14,7 +14,7 @@ which wx-config
 
 it should return **NOT** return  `/usr/bin/wx-config` (`/usr/local/bin/wx-config` should be good).
 
-# Cmpile and run
+# Compile and run
 
 Run
 
