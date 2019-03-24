@@ -29,3 +29,10 @@ ghc -package wx -o hello Hello.hs
 ```
 
 and the run `./hello`.
+
+To interpret:
+
+```
+ghci hello
+```
+.
